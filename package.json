@@ -1,0 +1,19 @@
+{
+  "name": "node-examples",
+  "version": "1.0.0",
+  "description": "\"Simple node examples\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielcustodio21/nodeJsPractice.git"
+  },
+  "author": "Gabriel Custodio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielcustodio21/nodeJsPractice/issues"
+  },
+  "homepage": "https://github.com/gabrielcustodio21/nodeJsPractice#readme"
+}
