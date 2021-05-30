@@ -28,7 +28,7 @@ promoRouter.route('/')
 
 });
 
-dishRouter.route('/:promoId')
+promoRouter.route('/:promoId')
 .get((req,res,next) => {
     res.end('Will send details of the promotions: ' + req.params.promoId + ' to you!');
 
@@ -46,7 +46,7 @@ dishRouter.route('/:promoId')
 })
 
 .delete((req,res,next) => {
-    res.end('Deleting promotion: ' + req.params.dishId);
+    res.end('Deleting promotion: ' + req.params.promoId);
 
 });
 
